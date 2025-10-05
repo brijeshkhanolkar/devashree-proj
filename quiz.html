@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Quiz</h1>
+    <form method="GET" action="/quiz">
+      <div class="quiz-question">
+        <label>1. What is 2 + 2?</label><br>
+        <input type="radio" name="q1" value="4">4
+        <input type="radio" name="q1" value="5">5
+        <input type="radio" name="q1" value="6">6
+      </div>
+
+      <div class="quiz-question">
+        <label>2. Capital of France?</label><br>
+        <input type="radio" name="q2" value="London">London
+        <input type="radio" name="q2" value="Paris">Paris
+        <input type="radio" name="q2" value="Berlin">Berlin
+      </div>
+
+      <div class="quiz-question">
+        <label>3. C++ is mainly used for?</label><br>
+        <input type="radio" name="q3" value="Websites">Websites
+        <input type="radio" name="q3" value="System Programming">System Programming
+        <input type="radio" name="q3" value="Cooking">Cooking
+      </div>
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+    <br>
+    <a href="/results">View All Scores</a>
+  </div>
+</body>
+</html>
